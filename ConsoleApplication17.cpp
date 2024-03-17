@@ -26,17 +26,20 @@ void Func(int num) {
         S_half /= 10;
     }
 
-    if (sum_Fhalf != sum_Shalf) {
+    if (sum_Fhalf != sum_Shalf) 
+    {
         cout << "Number " << num << " is not a happy number.\n";
     }
-    else {
+    else 
+    {
         cout << "Number " << num << " is a happy number!\n";
     }
 }
 
 int main() 
 {
-    try {
+    try 
+   {
         int number;
         cout << "Enter a 6-digit number:";
         cin >> number;
